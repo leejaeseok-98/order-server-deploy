@@ -4,7 +4,7 @@ spring:
     port: 6379
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://local:3306/order_system
+    url: jdbc:mariadb://localhost:3306/order_system
     username: root
     password: 1234
   jpa:
